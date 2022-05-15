@@ -43,6 +43,3 @@ appreviewers.append(details[2:3].Reviewers.tolist())
 #printing the top 3 reviewers
 print("The 3 most similar reviewers to Applicant " + str(app) +  " are: ")
 print(*appreviewers, sep='\n')
-
-
-
